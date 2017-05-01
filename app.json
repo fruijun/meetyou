@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index",
+    "pages/user/index",
+    "pages/record/record",
+    "pages/articalOne/artical",
+    "pages/setMenstrual/setMenstrual"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff748c",
+    "navigationBarTitleText": "美柚",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#ddd"
+  },
+  "tabBar": {
+    "list": [
+       {
+      "pagePath": "pages/index/index",
+      "iconPath":"/img/lemon.png",
+      "text": "今天",
+      "selectedColor": "#ffc0cb"
+    },
+       {
+      "pagePath": "pages/record/record",
+       "iconPath":"/img/calendar.png",
+      "text": "记录",
+      "selectedColor": "#ffc0cb"
+    },
+    {
+      "pagePath": "pages/user/index",
+       "iconPath":"/img/girl.png",
+      "text": "我",
+      "selectedColor": "#ffc0cb"
+    }
+    ]
+  }
+}

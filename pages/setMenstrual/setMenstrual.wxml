@@ -1,0 +1,24 @@
+<view class="container">
+
+
+<view class="long">
+<view class="text-top">您的月经大概持续几天？</view>
+<view class="record">
+      <image src="/img/set.png" ></image>
+      <text>周经期长度</text>
+      <image src="/img/go.png" class="go"></image>
+</view>
+</view>
+
+
+
+<view class="long">
+<view class="text-top">两次月经开始日大概间隔多久？</view>
+<view class="record">
+      <image src="/img/set.png" ></image>
+      <text>周期长度</text>
+      <image src="/img/go.png" class="go"></image>
+</view>
+</view>
+
+</view>

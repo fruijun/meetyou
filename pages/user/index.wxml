@@ -1,0 +1,31 @@
+<!--pages/user/index.wxml-->
+<view class="username">
+<image src="/img/girl.png"></image><text>名字</text>
+</view>
+<view class="status">
+<navigator url="../setMenstrual/setMenstrual" class="art-1">
+<view class="item">
+      <image src="/img/set.png" ></image>
+      <text>经期设置</text>
+      <image src="/img/go.png" class="go"></image>
+</view>
+</navigator>
+<navigator url="../setMenstrual/setMenstrual" class="art-1">
+<view class="item">
+      <image src="/img/record.png"></image>
+      <text>我的记录</text>
+      <image src="/img/go.png" class="go"></image>
+</view>
+</navigator>
+<navigator url="../setMenstrual/setMenstrual" class="art-1">
+<view class="item">
+      <image src="/img/about.png"></image>
+      <text>关于美柚</text>
+      <image src="/img/go.png" class="go"></image>
+</view>
+</navigator>
+
+
+
+
+</view>

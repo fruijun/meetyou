@@ -1,0 +1,32 @@
+/* pages/login/index.wxss */
+.uname{
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    width: 70%;
+}
+.pwd{
+border: 1px solid #ddd;
+margin: 10px auto;
+ width: 70%;
+}
+.img{
+  width: 80px;
+  height: 80px;
+  margin: 40px 150px;
+}
+.wx{
+    width: 55px;
+    height: 55px;
+    margin: 10px 150px;
+}
+.login-item-info{
+    margin: 10px 50px;
+}
+.loginBtn{
+    background-color: limegreen;
+    width: 70%;
+    margin: 10px auto;
+}
+.registe{
+    margin: 10px 60px;
+}

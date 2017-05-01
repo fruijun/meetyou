@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="item-1">
+    <view>
+        <view class="distance">距离大姨妈还有</view>
+        <view class="days"><text>13</text>天</view>
+      </view>
+    <view class="period">易孕期</view>
+    <view class="predict"><text>预计经期开始日</text><text >6月4日</text></view>
+  </view>
+
+
+
+  <view class="item-2">
+    <view>
+      <image src="/img/nfm.png"></image>
+      <text>大姨妈来了</text>
+      <switch checked bindchange="" color="#ff748c"/>
+    </view>
+  </view>
+
+  <view class="item-3">
+  <navigator url="../articalOne/artical" class="art-1">
+   <view>
+       <image src="/img/artical1.png" mode="{{mode}}" class="item-image"></image>
+      <view class="art-text">
+       <view>美柚获评最受女性欢迎品牌奖</view>
+       <view class="art-content"> 4月22日，首次发布《职业女性健康状况白皮书》。</view></view>
+    </view>
+    </navigator>
+
+    <navigator url="../articalOne/artical" class="art-2">
+    <view>
+       <image src="/img/art-2.jpg" mode="{{mode}}" class="item-image"></image>
+      <view class="art-text">
+       <view>宝宝清火食谱：芹菜拌腐竹</view>
+       <view class="art-content"> 腐竹中的谷氨酸在大脑活动中起着重要作用，此外芹菜富含矿物质元素。</view></view>
+    </view>
+  </navigator>
+      <navigator url="../articalOne/artical" class="art-3">
+     <view>
+       <image src="/img/art-3.jpg" mode="{{mode}}" class="item-image"></image>
+      <view class="art-text">
+       <view>水果煮着吃，功效加倍</view>
+       <view class="art-content"> 从中医的角度看，有些水果制作成菜肴就会有一些特殊的养生功效。</view></view>
+    </view>
+    </navigator>
+    <navigator url="../articalOne/artical" class="art-4">
+     <view>
+       <image src="/img/art-4.jpg" mode="{{mode}}" class="item-image"></image>
+      <view class="art-text">
+       <view>妈妈如何让孩子健康吃火锅</view>
+       <view class="art-content"> 冬季最惬意的事莫过于吃一顿热腾腾的火锅，然而孩子吃火锅有很多注意事项。</view></view>
+    </view>
+  </navigator>
+    
+  </view>
+</view>
